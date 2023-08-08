@@ -1,0 +1,37 @@
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.outerCircle {
+  border-left: 3px solid #0097a7;
+  border-right: 3px solid #0097a7;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 100%;
+  animation: rotate 20s linear infinite;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.innerCircle {
+  background-color: #e0f7fa;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #0097a7;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
