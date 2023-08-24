@@ -5,32 +5,26 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 import { useTheme } from "@emotion/react";
-import { orange } from "@mui/material/colors";
 
 const SocialMediaIcons = () => {
   const theme = useTheme();
   const socialMediaIcons = [
     {
       icon: <FacebookRoundedIcon />,
-      url: "https://www.facebook.com/devahmedismael",
+      url: "https://www.facebook.com/profile.php?id=100077929572186",
     },
     {
       icon: <TwitterIcon />,
-      url: "https://twitter.com/devahmedismael",
+      url: "https://twitter.com/Yasmine43163813",
     },
     {
       icon: <InstagramIcon />,
-      url: "https://www.instagram.com/devahmedismael",
+      url: "https://www.instagram.com/jasminemohamed9731/",
     },
     {
       icon: <LinkedInIcon />,
-      url: "https://www.linkedin.com/in/devahmedismael",
-    },
-    {
-      icon: <YouTubeIcon />,
-      url: "https://www.youtube.com/@devahmedismael",
+      url: "https://www.linkedin.com/in/jasmine-ibrahim-0304a3183/",
     },
   ];
   return (
